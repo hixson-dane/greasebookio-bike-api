@@ -1,0 +1,27 @@
+{
+  "name": "greasebookio-bike-api",
+  "version": "0.0.1",
+  "description": "API for greasebook.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runInstall": "npm-run-all runInstall:*",
+    "runInstall:app": "npm --prefix app install && npm --prefix app run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hixson-dane/greasebookio-bike-api.git"
+  },
+  "author": "danehixson@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hixson-dane/greasebookio-bike-api/issues"
+  },
+  "homepage": "https://github.com/hixson-dane/greasebookio-bike-api#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
