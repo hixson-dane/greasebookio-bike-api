@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/hixson-dane/greasebookio-bike-api#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "fastify": "^4.0.1"
   }
 }
