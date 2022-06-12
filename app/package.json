@@ -4,7 +4,7 @@
   "description": "API Application for Greasbook.io",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc",
     "start": "tsc && node dist/index.js"
   },
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/hixson-dane/greasebookio-bike-api#readme",
   "dependencies": {
-    "fastify": "^4.0.1"
+    "@types/jest": "^28.1.1",
+    "fastify": "^4.0.1",
+    "jest": "^28.1.1"
   }
 }
